@@ -24,4 +24,12 @@ This will install all necessary packages for you to be able to run the scripts a
 everything should work out of the box, including correctly finding local paths.
 
 
-The src folder contains the source code, which can be used to generate transition times for a 
+The src folder contains the source code, which can be used to generate transition times for a stochastic process
+described by a Langevin equation driven by alpha stable noise. Two parametric families of potentials are 
+investigated, a quartic polinomial and a globally Lipschitz approximation of it, and a special case with an 
+asymmetric potential. 
+
+The scripts folder contains 3 files that allow to generate some of the figures of the paper. They are also ment to 
+be examples on how the functions contained in the src folder are used.
+
+For more information consult the paper or drop me a message.
